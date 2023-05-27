@@ -111,8 +111,6 @@
  &trans         &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans             &trans     &trans  &trans  &trans  &trans
             >;
         };
-    };
-};
 
         layer_macros {
             bindings = <
@@ -123,3 +121,5 @@
  &trans         &trans    &trans     &trans     &trans                               &trans  &trans  &trans          &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans
             >;
         };
+    };
+};
