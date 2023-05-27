@@ -31,6 +31,28 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&send_ae_lower>;
+        };
+    };
+
+    macros {
+        send_ae_lower: send_ae_lower {
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_press   &kp LALT>
+                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N3>
+                , <&macro_release &kp LALT>
+                ;
+        }
+    }
+    
   };
 
     keymap {
