@@ -73,8 +73,8 @@
     &kp EQUAL   &kp N1     &kp N2     &kp N3    &kp N4     &kp N5              &tog SYMBOLS_LAYER                                                                &mo MOD_LAYER   &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &kp CAPS
     &kp TAB     &kp SQT    &kp COMMA  &kp DOT   &kp P      &kp Y               &tog QWERTY_LAYER                                                                &none   &kp F   &kp G      &kp C     &kp R     &kp L     &kp BSLH
     &kp ESC     &kp A      &kp O      &kp E     &kp U      &kp I               &kp LG(LS(S))      &kp LCTRL  &kp LALT   &none   &none  &kp LGUI   &kp RCTRL  &none   &kp D   &kp H      &kp T     &kp N     &kp S     &kp MINUS
-    &kp LSHFT   &kp SEMI   &kp Q      &kp J     &kp K      &kp X               &none      &none     &mo APP_LAYER   &none   &none  &kp PG_UP  &none      &none   &kp B   &kp M      &kp W     &kp V     &kp Z     &kp RSHFT
-    &mo CTRL_NUM_LAYER       &kp GRAVE  &kp CAPS   &kp LEFT  &kp RIGHT         &kp BSPC   &slt SYMBOLS_LAYER DEL    &kp DEL                     &kp ENTER  &slt MOVEMENT_LAYER ENTER  &kp SPACE           &kp UP     &kp DOWN  &kp LBKT  &kp RBKT  &sl APP_LAYER
+    &kp LSHFT   &kp SEMI   &kp Q      &kp J     &kp K      &kp X               &none      &none     &mo APP_LAYER   &none   &none  &caps_word  &none      &none   &kp B   &kp M      &kp W     &kp V     &kp Z     &kp RSHFT
+    &mo CTRL_NUM_LAYER       &kp GRAVE  &kp CAPS   &kp LEFT  &kp RIGHT         &kp BSPC   &slt SYMBOLS_LAYER DEL    &kp DEL                     &kp ENTER  &slt MOVEMENT_LAYER ENTER  &kp SPACE           &kp UP     &kp DOWN  &kp LBKT  &kp RBKT  &mo CTRL_NUM_LAYER
             >;
         };
 
@@ -111,8 +111,8 @@
     layer_movement {
             bindings = <
  &trans         &trans  &trans  &trans  &trans  &trans                     &trans                                                  &trans  &trans     &trans     &trans     &trans  &trans  &trans
- &trans         &trans  &kp PG_UP  &kp UP  &kp PG_DN  &trans               &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp HOME  &kp LC(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(RIGHT)       &kp END    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &trans  &kp PG_UP  &kp UP  &kp PG_DN  &trans               &trans                                                  &trans  &trans  &trans  &kp PG_UP  &trans  &trans  &trans
+ &kp HOME  &kp LC(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(RIGHT)       &kp END    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PG_DN  &trans  &trans  &trans
  &trans         &trans  &trans  &trans  &trans  &trans                     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans         &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)                &trans  &trans  &trans                  &trans  &trans  &trans             &trans     &trans  &trans  &trans  &trans
             >;
