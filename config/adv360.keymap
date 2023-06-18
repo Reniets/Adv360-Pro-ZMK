@@ -112,7 +112,7 @@
             bindings = <
  &trans         &trans  &trans  &trans  &trans  &trans                     &trans                                                  &trans  &trans     &trans     &trans     &trans  &trans  &trans
  &trans         &trans  &kp PG_UP  &kp UP  &kp PG_DN  &trans               &trans                                                  &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
- &kp HOME  &kp LC(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(RIGHT)       &kp END    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT  &kp DOWN  &kp RIGHT  &trans  &trans
+ &kp HOME  &kp LC(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(RIGHT)       &kp END    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
  &trans         &trans  &trans  &trans  &trans  &trans                     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans         &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)                &trans  &trans  &trans                  &trans  &trans  &trans             &trans     &trans  &trans  &trans  &trans
             >;
