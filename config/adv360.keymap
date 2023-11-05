@@ -72,6 +72,7 @@
             label = "SHORT_LAYER_TAP";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
+            quick-tap-ms = <125>;
             flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
         };
@@ -80,6 +81,7 @@
             label = "LONG_LAYER_TAP";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
+            quick-tap-ms = <125>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
         };
@@ -103,7 +105,7 @@
             bindings = <
  &kp EQUAL &kp N1     &kp N2     &kp N3     &kp N4  &kp N5                  &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
  &trans    &kp DQT    &kp UNDER  &kp LBKT   &kp RBKT   &kp CARET            &trans                                                   &none  &kp EXCL  &kp LT  &kp GT   &kp EQUAL   &kp AMPS   &trans
- &trans    &kp FSLH   &kp DQT    &kp LBRC   &kp RBRC   &kp STAR             &none   &trans  &trans   &trans  &trans   &none  &kp QMARK  &kp LPAR   &kp RPAR   &kp SQT   &kp COLON   &kp UNDERSCORE
+ &trans    &kp FSLH   &kp DQT    &kp LBRC   &kp RBRC   &kp STAR             &none   &trans  &trans   &trans  &trans   &none  &kp QMARK  &kp LPAR   &kp RPAR   &kp SQT   &kp COLON   &trans
  &trans    &kp HASH   &kp DOLLAR &kp PIPE   &kp TILDE  &kp GRAVE              &trans  &trans     &kp PLUS  &kp PERCENT  &kp BSLH   &kp AT   &trans   &trans
  &trans    &trans  &trans     &trans     &trans                          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
