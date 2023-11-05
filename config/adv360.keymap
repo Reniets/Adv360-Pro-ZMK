@@ -72,7 +72,6 @@
             label = "SHORT_LAYER_TAP";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick_tap_ms = <175>;
             flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
         };
@@ -81,7 +80,6 @@
             label = "LONG_LAYER_TAP";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
         };
