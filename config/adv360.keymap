@@ -72,7 +72,7 @@
             label = "SHORT_LAYER_TAP";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick-tap-ms = <125>;
+            quick-tap-ms = <250>;
             flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
         };
@@ -93,8 +93,8 @@
 
         default_layer {
             bindings = <
-    &kp EQUAL   &kp N1     &kp N2     &kp N3    &kp N4     &kp N5              &to DEFAULT_LAYER                                                                &mo MOD_LAYER   &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &kp CAPS
-    &kp TAB     &kp SQT    &kp COMMA  &kp DOT   &kp P      &kp Y               &tog QWERTY_LAYER                                                                &none   &kp F   &kp G      &kp C     &kp R     &kp L     &kp BSLH
+    &kp EQUAL   &kp N1     &kp N2     &kp N3    &kp N4     &kp N5              &to DEFAULT_LAYER                                                     &mo MOD_LAYER   &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &kp CAPS
+    &kp TAB     &kp SQT    &kp COMMA  &kp DOT   &kp P      &kp Y               &tog QWERTY_LAYER                                                     &none   &kp F   &kp G      &kp C     &kp R     &kp L     &kp BSLH
     &kp ESC     &kp A      &kp O      &kp E     &kp U      &kp I               &kp LG(LS(S))      &kp LCTRL  &kp LALT  &kp LGUI   &kp RCTRL  &none   &kp D   &kp H      &kp T     &kp N     &kp S     &kp MINUS
     &kp LSHFT   &kp SEMI   &kp Q      &kp J     &kp K      &kp X                    &kp INSERT   &caps_word     &kp B   &kp M      &kp W     &kp V     &kp Z     &kp RSHFT
     &mo CTRL_NUM_LAYER       &kp GRAVE  &kp CAPS   &kp LEFT  &kp RIGHT         &kp BSPC   &slt SYMBOLS_LAYER DEL    &kp LC(LA(LEFT))          &kp LC(LA(RIGHT))  &slt MOVEMENT_LAYER ENTER  &kp SPACE           &kp UP     &kp DOWN  &kp LBKT  &kp RBKT  &mo CTRL_NUM_LAYER
@@ -133,11 +133,11 @@
 
     layer_movement {
             bindings = <
- &trans         &trans  &trans  &trans  &trans  &trans                     &trans                                                  &trans  &trans     &trans     &trans     &trans  &trans  &trans
- &trans         &trans  &kp PG_UP  &kp UP  &kp PG_DN  &trans               &trans                                                  &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
- &kp HOME  &kp LC(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(RIGHT)       &kp END    &trans  &trans   &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
- &trans         &trans  &trans  &trans  &trans  &trans                       &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
- &trans         &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)                &trans  &trans  &trans                  &trans  &trans  &trans             &trans     &trans  &trans  &trans  &trans
+ &trans         &trans  &trans  &trans  &trans  &trans                     &trans                                                  &trans    &trans  &trans  &trans    &trans  &trans  &trans
+ &trans         &trans  &kp PG_UP  &kp UP  &kp PG_DN  &trans               &trans                                                  &trans    &kp RC(LA(F))     &kp RC(LA(G))     &kp RC(LA(C))  &trans   &trans   &trans
+ &kp HOME  &kp LC(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(RIGHT)       &kp END    &trans  &trans   &trans  &trans  &trans &kp RC(LA(D))  &kp RC(LA(H))  &kp RC(LA(T)) &kp RC(LA(N))  &kp RC(LA(S))  &trans
+ &trans         &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LC(LS(TAB))  &kp LC(TAB)  &trans                       &trans   &trans    &trans  &trans  &trans  &kp RC(LA(V))  &trans  &trans
+ &trans         &trans  &trans  &trans  &trans                &trans  &trans  &trans                  &trans  &trans  &trans             &trans     &trans  &trans  &trans  &trans
             >;
         };
 
