@@ -134,10 +134,10 @@
     layer_movement {
             bindings = <
  &trans         &trans  &trans  &trans  &trans  &trans                     &trans                                                  &trans    &trans  &trans  &trans    &trans  &trans  &trans
- &trans         &trans  &kp PG_UP  &kp UP  &kp PG_DN  &trans               &trans                                                  &trans    &kp LG(LC(N2))     &kp LG(LC(N5))    &kp LG(LC(N1))  &kp LG(LC(N8))   &trans   &trans
+ &trans         &kp LA(LEFT)  &kp PG_UP  &kp UP  &kp PG_DN  &kp LA(RIGHT)               &trans                                                  &trans    &kp LG(LC(N2))     &kp LG(LC(N5))    &kp LG(LC(N1))  &kp LG(LC(N8))   &trans   &trans
  &kp HOME  &kp LC(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(RIGHT)       &kp END    &trans  &trans   &trans  &trans  &trans &kp LG(LC(N6))  &kp LG(LC(N4))  &kp LG(LC(N3)) &kp LG(LC(N9))  &kp LG(LC(N7))  &trans
- &trans         &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &kp LC(LS(TAB))  &kp LC(TAB)  &trans                       &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
- &trans         &trans  &trans  &trans  &trans                &trans  &trans  &trans                  &trans  &trans  &trans             &trans     &trans  &trans  &trans  &trans
+ &trans         &kp LA(UP)  &kp LA(DOWN)  &kp LC(LS(TAB))  &kp LC(TAB)  &trans                       &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &trans  &trans  &trans  &trans                &kp LA(BSPC)  &trans  &trans                  &trans  &trans  &trans             &trans     &trans  &trans  &trans  &trans
             >;
         };
 
